@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro - VetKet</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h2 class="titulo">Cadastro de Usuário</h2>
+
+        <form action="/cadastro" method="POST" class="form">
+
+            <label class="label">Usuário:</label>
+            <input class="input" type="text" name="usuario" required>
+
+            <label class="label">Senha:</label>
+            <input class="input" type="password" name="senha" required>
+
+            <button class="botao" type="submit">Cadastrar</button>
+        </form>
+
+        <a class="link" href="/">Voltar ao login</a>
+
+    </div>
+
+</body>
+</html>
